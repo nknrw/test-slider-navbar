@@ -1,0 +1,49 @@
+.navbar .bi {
+  font-size: 50px;
+  color: #000000;
+}
+
+.navbar-nav .nav-link {
+  font-size: 40px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card-body .bi {
+  width: 100%;
+  height: 100%;
+  font-size: 200px;
+}
+
+.card-text {
+  font-size: 36px;
+}
+
+.bi {
+  font-size: 36px;
+  vertical-align: middle;
+}
+
+.row {
+  display: flex;
+}
+
+#navbarNav {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+#navbarNav .nav-item {
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+#navbarNav .nav-link.active {
+  font-weight: bold;
+}
